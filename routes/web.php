@@ -12,3 +12,4 @@ Route::get('/notify', [NotificationController::class, 'notify']);
 use App\Http\Controllers\DashboardController;
 
 Route::get('/dashboard', [DashboardController::class, 'index']);
+
